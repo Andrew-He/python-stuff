@@ -19,7 +19,7 @@ while true:
                 client.send(data)   #send data to server
                 client.close()
                 break;
-                client.send(“sending time: %s: \n%” %(time.ctime(), data))
+                client.send("sending time: %s: \n%" %(time.ctime(), data))
             else:
                 data = receive_data.recv(1024)    # get a line of characters
                 print “<client sent>”, data

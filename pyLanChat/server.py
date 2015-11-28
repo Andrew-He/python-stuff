@@ -22,5 +22,5 @@ while true:
             print “<server sent data>” , data
             else:
                 client_data = raw_input()
-                client.send(“sending time: %s: \n%” %(time.ctime(), data))
+                client.send("sending time: %s: \n%" %(time.ctime(), data))
 client.close()
